@@ -1,0 +1,14 @@
+MISS_START
+
+PLAYER_INIT
+    PLAYER_POS = 96.5 102.0 2.0 0 
+END_INIT
+
+SCRIPT_START
+    DISPLAY_MESSAGE ( "Hello World!" )
+    
+    WHILE_EXEC ( 1 = 1 )
+        WAIT ( 0 )
+ENDW 
+
+SCRIPT_END
